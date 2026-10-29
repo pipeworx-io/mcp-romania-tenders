@@ -1,0 +1,33 @@
+{
+  "name": "@pipeworx/mcp-romania-tenders",
+  "version": "0.1.0",
+  "description": "Romania public procurement MCP -- SEAP / SICAP public notice lists (keyless).",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "mcp-romania-tenders": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "romania-tenders"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-romania-tenders.git"
+  },
+  "mcpName": "io.github.pipeworx-io/romania-tenders",
+  "pipeworx": {
+    "mode": "gateway",
+    "slug": "romania-tenders",
+    "gatewaySlug": "romania-tenders",
+    "sourceHash": "v1-7ea3b9bff58ea6fa0b09688899645e3e5af6be065c39209460629e5f7121192e",
+    "sourceCommit": "305e2cd138cb71158e9c1e664ea0e6739bd40801"
+  }
+}
