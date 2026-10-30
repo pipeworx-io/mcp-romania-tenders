@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-romania-tenders",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Romania public procurement MCP -- SEAP / SICAP public notice lists (keyless).",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "romania-tenders",
     "gatewaySlug": "romania-tenders",
-    "sourceHash": "v1-7ea3b9bff58ea6fa0b09688899645e3e5af6be065c39209460629e5f7121192e",
-    "sourceCommit": "305e2cd138cb71158e9c1e664ea0e6739bd40801"
+    "sourceHash": "v1-7385917e1e8f22d46a8096d3835697f8f65fb34d1104b86e7ac78f575549523d",
+    "sourceCommit": "748d0e6962c0a171a91cad30f4106ffd22aed2b7"
   }
 }
